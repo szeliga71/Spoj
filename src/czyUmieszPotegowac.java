@@ -7,8 +7,10 @@ public class czyUmieszPotegowac {
     public static void main(String[] args) {
 
         Person p1=new Person("Jan",22);
+        Person p2=new Person("Piotr",33);
 
         System.out.println(p1);
+        System.out.println(p2);
 
         System.out.println(p1.visitCard());
 

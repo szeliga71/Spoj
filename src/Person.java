@@ -7,6 +7,15 @@ public class Person {
         this.name=name;
         this.age=age;
     }
+String visitCard(){
+
+        String card="mr/ms ";
+        card = card + name;
+
+return card;
+    }
+
+
 
     @Override
     public String toString() {

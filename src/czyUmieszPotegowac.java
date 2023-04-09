@@ -10,6 +10,8 @@ public class czyUmieszPotegowac {
 
         System.out.println(p1);
 
+        System.out.println(p1.visitCard());
+
         int koncowki[][] = {
                 {0, 0, 0, 0},
                 {1, 1, 1, 1},

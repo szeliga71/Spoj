@@ -6,6 +6,9 @@ public class czyUmieszPotegowac {
 
     public static void main(String[] args) {
 
+        Person p1=new Person("Jan",22);
+
+        System.out.println(p1);
 
         int koncowki[][] = {
                 {0, 0, 0, 0},

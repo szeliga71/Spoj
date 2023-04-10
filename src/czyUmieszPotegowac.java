@@ -19,6 +19,7 @@ public class czyUmieszPotegowac {
         Person p31=new Person("Halina",22);
         Person p32=new Person("Marzena",23);
         Person p33=new Person("Julia",17);
+        Person p333=new Person("Alex",25);
 
         System.out.println(p1);
         System.out.println(p2);
@@ -27,6 +28,10 @@ public class czyUmieszPotegowac {
         System.out.println(p32);
         System.out.println(p33);
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println(scan.nextLine());
+
+        System.out.println(" po skanowaniu");
 
         System.out.println(p1.visitCard());
 
@@ -45,7 +50,7 @@ public class czyUmieszPotegowac {
         //long podstawa;
         //long wykladnik;
 
-        Scanner scan = new Scanner(System.in);
+        //Scanner scan = new Scanner(System.in);
         int ileProb = scan.nextInt();
 
 

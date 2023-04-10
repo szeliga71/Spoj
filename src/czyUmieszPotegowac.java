@@ -9,7 +9,7 @@ public class czyUmieszPotegowac {
         Person p1=new Person("Jan",22);
         Person p2=new Person("Piotr",33);
 
-        
+        Person p800=new Person("ARTEK",66);
 
         System.out.println(p1);
         System.out.println(p2);

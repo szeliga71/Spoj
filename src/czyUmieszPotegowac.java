@@ -16,10 +16,16 @@ public class czyUmieszPotegowac {
         System.out.println(p44);
 
         Person p3 =new Person("Tadeusz",45);
+        Person p31=new Person("Halina",22);
+        Person p32=new Person("Marzena",23);
+        Person p33=new Person("Julia",17);
 
         System.out.println(p1);
         System.out.println(p2);
         System.out.println(p3);
+        System.out.println(p31);
+        System.out.println(p32);
+        System.out.println(p33);
 
 
         System.out.println(p1.visitCard());

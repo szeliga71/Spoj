@@ -8,9 +8,11 @@ public class czyUmieszPotegowac {
 
         Person p1=new Person("Jan",22);
         Person p2=new Person("Piotr",33);
+        Person p3 =new Person("Tadeusz",45);
 
         System.out.println(p1);
         System.out.println(p2);
+        System.out.println(p3);
 
         System.out.println(p1.visitCard());
 
